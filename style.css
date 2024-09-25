@@ -125,7 +125,7 @@ main {
     flex-direction: column;
     gap: 50px;
     justify-content: center;
-    height: 400px;
+    min-height: 400px;
 }
 #main-header {
     font-size: 36px;
