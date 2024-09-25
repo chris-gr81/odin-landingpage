@@ -108,3 +108,50 @@ nav a {
     border-radius: 10px;
     border-style: none;
 }
+
+/* the main section ------------------------------ */
+
+/* main general */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15% 0 15%;
+}
+
+/* main upper */
+
+#main-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    height: 400px;
+}
+#main-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.square-holder {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+}
+
+.card p {
+    text-align: center;
+    color: #1f2937;
+}
+
+.square-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
