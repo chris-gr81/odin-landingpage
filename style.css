@@ -1,0 +1,110 @@
+* { 
+    margin-top: 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+#container {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* the header section ------------------------------ */
+
+/* general header */
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 15% 0 15%;
+    min-height: 500px;
+    gap: 50px;
+}
+
+/* header logo and header nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+nav li {
+    padding-left: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* header content */
+
+#header-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap-reverse;
+    
+}
+
+#hc-left {
+    flex: 1;
+    width: 50%;
+}
+
+#hero-main {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hc-right {
+    flex: 1;
+    width: 50%;
+}
+#header-img {
+    max-width: 500px;
+    height: auto;
+}
+
+#header-button {
+    background-color: #3882F6;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+}
