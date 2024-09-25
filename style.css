@@ -115,7 +115,6 @@ nav a {
 main {
     display: flex;
     flex-direction: column;
-    padding: 10px 15% 0 15%;
 }
 
 /* main upper */
@@ -126,6 +125,7 @@ main {
     gap: 50px;
     justify-content: center;
     min-height: 400px;
+    padding: 10px 15% 0 15%;
 }
 #main-header {
     font-size: 36px;
@@ -154,4 +154,29 @@ main {
     height: 150px;
     width: 150px;
     border-radius: 10px;
+}
+
+/* main middle */
+
+#main-middle {
+    background-color: #E5E7EB;
+    min-height: 300px;
+}
+
+#q-box {
+    padding: 5% 20% 5% 20%;
+}
+#quote {
+    
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+#signature {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
 }
